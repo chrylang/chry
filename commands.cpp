@@ -5,7 +5,7 @@ using namespace std;
 
 int echo() {
   string echoout;
-  ifstream input("input.cy");
+  ifstream input("input.chy");
   while (getline (input, echoout)); {
     cout << echoout;
   }
